@@ -1,0 +1,29 @@
+body {
+        background-image: linear-gradient(to left, #FAFAD2, #90EE90); 
+      }
+	 .flex-container {
+        display: flex;
+        flex-direction: row;
+        padding: 13px;
+        border: 0px dashed #665;
+      }
+      .flex-container > h2 {
+        width: 50px;
+        height: 60px;
+        margin: 5px;     
+        border-radius: 3px;
+        font-style: italic;
+		text-decoration:underline;
+		font-family: time new roman, sans-serif;
+		color: red;
+      }
+      .flex-container > p {
+        width: 500px;
+        height: 10px;
+        margin: 55px;     
+        border-radius: 3px;
+        font-family: Comic sans MS, serif;
+      }
+	 .flex-container > h4 {
+	  font-style: oblique;
+	  }

@@ -1,0 +1,81 @@
+body{
+  background-color : rgb(191, 247, 169); 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color : rgb(191, 247, 169); 
+  padding: 10px;
+  height : 800px;
+  flex-direction : row;
+}
+
+.child {
+  display: inline-block;
+  font-family: "Open Sans", Arial;
+  font-size: 15px;
+  color: #FFF;
+  text-align: center;
+  background: #3794fe;
+  padding: 20px;
+  margin: 12px;
+}
+
+h2 {
+  font-family: Verdana;    
+}
+
+#one {
+  background-color : rgb(150, 150, 209); 
+  color : rgba(204, 173, 0, 0);
+  height : 150px;
+  width : 150px;
+}
+
+#one:hover{
+  align-self: flex-end ;
+  color: #FFF;
+}
+
+#second {
+  background-color : rgb(150, 150, 209); 
+  color : rgba(204, 173, 0, 0);
+  height : 370px;
+  width : 180px;
+}
+
+#second:hover{
+  align-self: flex-end ;
+  color: #FFF;
+}
+
+#third {
+  background-color : rgb(150, 150, 209); 
+  height : 410px;
+  width : 180px;
+  color : rgba(204, 173, 0, 0);
+}
+
+#third:hover{
+  align-self: flex-end ;
+  color: #FFF;
+}
+
+#fourth {
+  background-color : rgb(150, 150, 209); 
+  height : 410px;
+  width : 180px;
+  align-self: flex-end ;
+  color : rgba(204, 173, 0, 0);
+}
+
+#fourth:hover{
+  align-self: flex-start ;
+  color: #FFF;
+}
+
+#persInfo{
+  padding-bottom : 30px;
+}

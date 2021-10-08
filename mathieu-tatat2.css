@@ -1,0 +1,78 @@
+h1 {
+  font-family: cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #34495e ;
+}
+img {
+
+  width: 250px;
+  display: block;
+  margin-left: auto;
+
+  border-radius: 50%;
+  box-shadow: 8px 8px 4px #aaa
+
+}
+h2{color: #34495e ;
+  text-align: center;
+
+}
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+h4{
+  color: whitesmoke;
+   font-family: cursive;
+}
+div{
+
+   background-color:#666666;
+   box-shadow: 8px 8px 4px #aaa
+}
+.nu{
+  font-size: 30px;
+  color: whitesmoke;
+
+}
+.nu2{
+  color: whitesmoke;
+}
+.hobbies{
+  box-shadow: 8px 8px 4px #aaa;
+  background-color: #666666;
+
+}
+body {
+  background-color: #17202a ;
+}
+
+p{
+  text-align: center;
+  font-size: 18px;
+
+}
+
+ul{
+  text-align: center;
+  font-size: 25px;
+}
+a{
+  color: #34495e;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.container{
+  display: inline-flex;
+  gap: 10px;
+  gap: 10px 10px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+  width: 300px;
+}

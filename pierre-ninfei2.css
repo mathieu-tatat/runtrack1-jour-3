@@ -1,0 +1,43 @@
+body {
+	font: 1.2em "Fira Sans", sans-serif;
+	color: #011900;
+	background-image: linear-gradient( to bottom, rgba(57, 213, 122, 1), rgba(0,0,0,0)); 
+	background-repeat: no-repeat; }
+	
+img {
+	border-radius: 50%;
+	box-shadow: 2px 6px 8px #000000; }
+	
+u {
+	width: 30%; 
+	font-size: 40px; }
+
+.flexbox1 {
+	display:flex;
+	flex-direction: line;
+	flex-wrap: wrap;
+	justify-content: center; }
+	
+.flexbox1 > div {
+	margin: 5%; }
+
+.flexbox2 {
+	display:flex;
+	flex-direction: line;
+	flex-wrap: wrap;
+	justify-content: left; }
+	
+.flexbox2 > div {
+	margin-left: 1em; 
+	margin-right: 60%;
+	padding-left: 1%; }
+	
+.imgbis {
+	padding: 0.1em;
+	background-color: #6dfd68;
+	border: 3px solid black;
+	border-radius: 50%;	}
+	
+p {
+	font: 22px captio
+	

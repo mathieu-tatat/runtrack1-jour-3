@@ -1,0 +1,25 @@
+body {
+        background-image: linear-gradient(to left, #66f507, #0052b0, #520f41, #ff0856); 
+      }
+	 h1 {
+        color: black;text-decoration:underline;text-align: left;text-shadow:5px 5px 5px #333333; 
+      }
+	  p {
+        color: argent;text-align: justify;font-family: "arial", "comic sans ms";
+      }
+	  h4 {
+        color: orange;text-decoration:underline;text-align: center;
+      }
+	 .flex-container {
+        display: flex;
+        flex-direction: nowrap;
+        padding: 30px;
+        border: 0px dashed #665;
+      }
+      .flex-container > div {
+        width: 30px;
+        height: 70px;
+        margin: 5px;     
+        border-radius: 3px;
+        background-color: #1faadb;
+      }
